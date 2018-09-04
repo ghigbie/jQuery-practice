@@ -10,8 +10,9 @@
 // });
 
 $(() => {
-  $('.red-box').fadTo(1000, 0.8);
+  $('.red-box').fadeTo(1000, 0.8);
   $('.green-box').fadeTo(2000, 0.5);
   $('.blue-box').fadeTo(3000, 0.2);
-
+  $('.blue-box').fadeToggle(2000);
+  $('.blue-box').fadeToggle(1000);
 });
